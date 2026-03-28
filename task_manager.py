@@ -6,4 +6,4 @@ def show_tasks():
         print("No tasks yet!")
         return
     for i, task in enumerate(tasks, 1):
-        print(f"{i}. {task})
+        print(f"{i}. {task}")
