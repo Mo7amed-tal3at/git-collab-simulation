@@ -11,3 +11,4 @@ def show_tasks():
 def add_task(task):
     tasks.append(task)
     print(f"Task '{task}' added!")
+        print(f"{i}. {task}")
